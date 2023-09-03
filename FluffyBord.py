@@ -282,7 +282,7 @@ while run:
         if score > highscore:
             highscore = score
             # Update the high score in the database
-            update_high_score("ash", score)  # Use the username of the player here
+            update_high_score("player", score)  # Use the username of the player here
 
         # generate new pipes
         time_now = pygame.time.get_ticks()
