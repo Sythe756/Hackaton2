@@ -74,7 +74,17 @@ input_active = False
 
 #high scores
 
+# score_file = 'assets/score.txt'
 
+# if os.path.exists(score_file):
+#     try:
+#         with open(score_file, 'r') as file:
+#             highscore = int(file.read())
+#     except Exception as e:
+#         print(f"Error reading highscore: {e}")
+#         highscore = 0
+# else:
+#     highscore = 0
 
 #game music
 game_music = pygame.mixer.music.load('assets/bg_music.mp3')
